@@ -1,21 +1,21 @@
-# 🖼️ Gallery Scraper
+#Gallery Scraper
 
 This Python script crawls a list of UK-based gallery websites and automatically extracts:
 
-- 🎯 Gallery Name
-- 📍 Address
-- 📧 Email
-- 📞 Phone
-- 📱 Social Media Links
-- ✅ Checks if artist submissions are accepted
+-  Gallery Name
+-  Address
+-  Email
+-  Phone
+-  Social Media Links
+-  Checks if artist submissions are accepted
 
-### 💾 Outputs
+### Outputs
 - `gallery_data.json`: Local backup of data
-- ✅ Google Sheet (auto-updated)
+-  Google Sheet (auto-updated)
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 - Python 3.x
 - Virtual environment (`venv`)
@@ -23,7 +23,7 @@ This Python script crawls a list of UK-based gallery websites and automatically 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Step 1: Clone the repo
@@ -45,11 +45,11 @@ Place your `.json` file (e.g., `gallery-leads-xxx.json`) in the root folder.
 python scraper.py
 
 
-✅ Now **Save the file**.
+Now **Save the file**.
 
 ---
 
-## ✅ Step 2: Add a `.gitignore` File (If not already there)
+##  Step 2: Add a `.gitignore` File (If not already there)
 
 This file prevents sensitive or unnecessary files from being pushed.
 
